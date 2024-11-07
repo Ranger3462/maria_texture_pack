@@ -1,0 +1,624 @@
+{
+"__comment": "Made by (c) Yannik Pipek. Make sure to inform yourself about my therms of use before using any of my work",
+"textures": {
+    "particle": "item/iron_axe",
+    "iron axe iron": "block/tools/iron",
+    "texture": "block/tools/handle"
+},
+"elements": [ 
+{
+    "__comment": "Axe balde",
+    "from": [ 6, 14.25, 7.75 ],
+    "to": [ 8, 15.75, 8 ],
+    "faces": {
+        "down":  { "uv": [ 10, 8, 8, 7.75 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6, 7.75, 8, 8 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 8, 0.25, 10, 1.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6, 0.25, 8, 1.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.75, 0.25, 8, 1.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8, 0.25, 8.25, 1.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6, 14.25, 8 ],
+    "to": [ 10.5, 15.75, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 10, 8.25, 5.5, 8 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6, 8, 10.5, 8.25 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 0.25, 10, 1.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6, 0.25, 10.5, 1.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8, 0.25, 8.25, 1.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.75, 0.25, 8, 1.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6.25, 13.75, 7.75 ],
+    "to": [ 7.25, 14, 8 ],
+    "faces": {
+        "down":  { "uv": [ 9.75, 8, 8.75, 7.75 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.25, 7.75, 7.25, 8 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 8.75, 2, 9.75, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.25, 2, 7.25, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.75, 2, 8, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8, 2, 8.25, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6.25, 14, 8 ],
+    "to": [ 8, 14.25, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 9.75, 8.25, 8, 8 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.25, 8, 8, 8.25 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 8, 1.75, 9.75, 2 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.25, 1.75, 8, 2 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8, 1.75, 8.25, 2 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.75, 1.75, 8, 2 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6.25, 13.5, 7.8125 ],
+    "to": [ 6.5, 13.75, 8.1875 ],
+    "faces": {
+        "down":  { "uv": [ 9.75, 8.1875, 9.5, 7.8125 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.25, 7.8125, 6.5, 8.1875 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9.5, 2.25, 9.75, 2.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.25, 2.25, 6.5, 2.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.8125, 2.25, 8.1875, 2.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.8125, 2.25, 8.1875, 2.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6.25, 13.75, 8 ],
+    "to": [ 7, 14, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 9.75, 8.25, 9, 8 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.25, 8, 7, 8.25 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9, 2, 9.75, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.25, 2, 7, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8, 2, 8.25, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.75, 2, 8, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6.25, 13.25, 7.875 ],
+    "to": [ 6.5, 13.5, 8.125 ],
+    "faces": {
+        "down":  { "uv": [ 9.75, 8.125, 9.5, 7.875 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.25, 7.875, 6.5, 8.125 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9.5, 2.5, 9.75, 2.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.25, 2.5, 6.5, 2.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.875, 2.5, 8.125, 2.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.875, 2.5, 8.125, 2.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 6.5, 13.5, 7.75 ],
+    "to": [ 7, 13.75, 8 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 8, 9, 7.75 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.5, 7.75, 7, 8 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9, 2.25, 9.5, 2.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.5, 2.25, 7, 2.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.75, 2.25, 8, 2.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8, 2.25, 8.25, 2.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7, 13.75, 8 ],
+    "to": [ 7.25, 14, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 9, 8.25, 8.75, 8 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7, 8, 7.25, 8.25 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 8.75, 2, 9, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7, 2, 7.25, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8, 2, 8.25, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.75, 2, 8, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7.25, 15.25, 7.5 ],
+    "to": [ 10.5, 15.75, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.75, 7.75, 5.5, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7.25, 7.5, 10.5, 7.75 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 0.25, 8.75, 0.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7.25, 0.25, 10.5, 0.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 0.25, 7.75, 0.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8.25, 0.25, 8.5, 0.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7.25, 15, 8.25 ],
+    "to": [ 10.5, 15.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.75, 8.5, 5.5, 8.25 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7.25, 8.25, 10.5, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 0.25, 8.75, 1 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7.25, 0.25, 10.5, 1 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8.25, 0.25, 8.5, 1 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 0.25, 7.75, 1 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7.5, 14.75, 7.5 ],
+    "to": [ 10.5, 15.25, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.75, 5.5, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7.5, 7.5, 10.5, 7.75 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 0.75, 8.5, 1.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7.5, 0.75, 10.5, 1.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 0.75, 7.75, 1.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8.25, 0.75, 8.5, 1.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7.5, 14.75, 8.25 ],
+    "to": [ 10.5, 15, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 5.5, 8.25 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7.5, 8.25, 10.5, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 1, 8.5, 1.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7.5, 1, 10.5, 1.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8.25, 1, 8.5, 1.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 1, 7.75, 1.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7.75, 14.5, 7.5 ],
+    "to": [ 10.5, 14.75, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 5.5, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7.75, 7.5, 10.5, 7.75 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 1.25, 8.25, 1.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7.75, 1.25, 10.5, 1.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 1.25, 7.75, 1.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8.25, 1.25, 8.5, 1.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 7.75, 14.5, 8.25 ],
+    "to": [ 10.5, 14.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 5.5, 8.25 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 7.75, 8.25, 10.5, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 1.25, 8.25, 1.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 7.75, 1.25, 10.5, 1.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8.25, 1.25, 8.5, 1.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 1.25, 7.75, 1.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde",
+    "from": [ 8, 14.25, 7.5 ],
+    "to": [ 10.5, 14.5, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8, 5.5, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 8, 7.5, 10.5, 8 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 1.5, 8, 1.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 8, 1.5, 10.5, 1.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 1.5, 8, 1.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8, 1.5, 8.5, 1.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe stick",
+    "from": [ 8, 0.25, 7.75 ],
+    "to": [ 9.5, 1.25, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8.25, 6.5, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8, 7.75, 9.5, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.5, 14.75, 8, 15.75 ], "texture": "#texture" },
+        "south": { "uv": [ 8, 14.75, 9.5, 15.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 14.75, 8.25, 15.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 14.75, 8.25, 15.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Blade",
+    "from": [ 8, 14.5, 7.75 ],
+    "to": [ 10.5, 15.75, 8 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8, 5.5, 7.75 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 8, 7.75, 10.5, 8 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 0.25, 8, 1.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 8, 0.25, 10.5, 1.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.75, 0.25, 8, 1.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8, 0.25, 8.25, 1.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe Blade",
+    "from": [ 8, 14.25, 8.25 ],
+    "to": [ 10.5, 14.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8.5, 5.5, 8.25 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 8, 8.25, 10.5, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 1.5, 8, 1.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 8, 1.5, 10.5, 1.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8.25, 1.5, 8.5, 1.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 1.5, 7.75, 1.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe Blade",
+    "from": [ 8.25, 14, 7.5 ],
+    "to": [ 10.5, 14.25, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.5, 5.5, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 8.25, 7.5, 10.5, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 1.75, 7.75, 2 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 8.25, 1.75, 10.5, 2 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 1.75, 8.5, 2 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 1.75, 8.5, 2 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.25, 1.25, 7.75 ],
+    "to": [ 9.75, 1.5, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.25, 6.25, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.25, 7.75, 9.75, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.25, 14.5, 7.75, 14.75 ], "texture": "#texture" },
+        "south": { "uv": [ 8.25, 14.5, 9.75, 14.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 14.5, 8.25, 14.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 14.5, 8.25, 14.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.25, 7.75, 7.75 ],
+    "to": [ 9.5, 14, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.25, 6.5, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.25, 7.75, 9.5, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.5, 2, 7.75, 8.25 ], "texture": "#texture" },
+        "south": { "uv": [ 8.25, 2, 9.5, 8.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 2, 8.25, 8.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 2, 8.25, 8.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.25, 15.75, 7.75 ],
+    "to": [ 9.75, 16, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.25, 6.25, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.25, 7.75, 9.75, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.25, 0, 7.75, 0.25 ], "texture": "#texture" },
+        "south": { "uv": [ 8.25, 0, 9.75, 0.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 0, 8.25, 0.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 0, 8.25, 0.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.5, 0, 7.75 ],
+    "to": [ 9.5, 0.25, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.5, 8.25, 6.5, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.5, 7.75, 9.5, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.5, 15.75, 7.5, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 8.5, 15.75, 9.5, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 15.75, 8.25, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 15.75, 8.25, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.5, 1.5, 7.75 ],
+    "to": [ 9.75, 3, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.5, 8.25, 6.25, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.5, 7.75, 9.75, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.25, 13, 7.5, 14.5 ], "texture": "#texture" },
+        "south": { "uv": [ 8.5, 13, 9.75, 14.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 13, 8.25, 14.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 13, 8.25, 14.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.5, 4.75, 7.75 ],
+    "to": [ 9.5, 7.75, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.5, 8.25, 6.5, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.5, 7.75, 9.5, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.5, 8.25, 7.5, 11.25 ], "texture": "#texture" },
+        "south": { "uv": [ 8.5, 8.25, 9.5, 11.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 8.25, 8.25, 11.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 8.25, 8.25, 11.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Blade",
+    "from": [ 8.75, 13.75, 7.5 ],
+    "to": [ 9.75, 14, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 7.25, 7.75, 6.25, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 8.75, 7.5, 9.75, 7.75 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 6.25, 2, 7.25, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 8.75, 2, 9.75, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 2, 7.75, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8.25, 2, 8.5, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 8.75, 3, 7.75 ],
+    "to": [ 10, 4.75, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 7.25, 8.25, 6, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 8.75, 7.75, 10, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6, 11.25, 7.25, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 8.75, 11.25, 10, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 11.25, 8.25, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 11.25, 8.25, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Balde",
+    "from": [ 8.75, 13.75, 8.25 ],
+    "to": [ 9.75, 14, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7.25, 8.5, 6.25, 8.25 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 8.75, 8.25, 9.75, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 6.25, 2, 7.25, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 8.75, 2, 9.75, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8.25, 2, 8.5, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 2, 7.75, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 9.5, 0.75, 7.75 ],
+    "to": [ 9.75, 1.25, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 6.5, 8.25, 6.25, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 9.5, 7.75, 9.75, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.25, 14.75, 6.5, 15.25 ], "texture": "#texture" },
+        "south": { "uv": [ 9.5, 14.75, 9.75, 15.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 14.75, 8.25, 15.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 14.75, 8.25, 15.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 9.5, 4.75, 7.75 ],
+    "to": [ 9.75, 7.5, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 6.5, 8.25, 6.25, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 9.5, 7.75, 9.75, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.25, 8.5, 6.5, 11.25 ], "texture": "#texture" },
+        "south": { "uv": [ 9.5, 8.5, 9.75, 11.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 8.5, 8.25, 11.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 8.5, 8.25, 11.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 9.5, 12, 7.75 ],
+    "to": [ 9.75, 14, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 6.5, 8.25, 6.25, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 9.5, 7.75, 9.75, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6.25, 2, 6.5, 4 ], "texture": "#texture" },
+        "south": { "uv": [ 9.5, 2, 9.75, 4 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 2, 8.25, 4 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 2, 8.25, 4 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 9.75, 2.25, 7.75 ],
+    "to": [ 10, 3, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 6.25, 8.25, 6, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 9.75, 7.75, 10, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6, 13, 6.25, 13.75 ], "texture": "#texture" },
+        "south": { "uv": [ 9.75, 13, 10, 13.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 13, 8.25, 13.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 13, 8.25, 13.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 9.75, 13.5, 7.75 ],
+    "to": [ 10, 14, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 6.25, 8.25, 6, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 9.75, 7.75, 10, 8.25 ], "texture": "#texture" },
+        "north": { "uv": [ 6, 2, 6.25, 2.5 ], "texture": "#texture" },
+        "south": { "uv": [ 9.75, 2, 10, 2.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 2, 8.25, 2.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 2, 8.25, 2.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Blade",
+    "from": [ 10, 15.75, 7.5 ],
+    "to": [ 10.5, 16, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 6, 8.5, 5.5, 7.5 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 10, 7.5, 10.5, 8.5 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 5.5, 0, 6, 0.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 10, 0, 10.5, 0.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.5, 0, 8.5, 0.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.5, 0, 8.5, 0.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 6.5, 13.5, 8 ],
+    "to": [ 7, 13.75, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 8.25, 9, 8 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.5, 8, 7, 8.25 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9, 2.25, 9.5, 2.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.5, 2.25, 7, 2.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 8, 2.25, 8.25, 2.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.75, 2.25, 8, 2.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 6, 13.5, 7.875 ],
+    "to": [ 6.25, 13.75, 8.125 ],
+    "faces": {
+        "down":  { "uv": [ 10, 8.125, 9.75, 7.875 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6, 7.875, 6.25, 8.125 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9.75, 2.25, 10, 2.5 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6, 2.25, 6.25, 2.5 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.875, 2.25, 8.125, 2.5 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.875, 2.25, 8.125, 2.5 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 5.75, 13.75, 7.875 ],
+    "to": [ 6, 14, 8.125 ],
+    "faces": {
+        "down":  { "uv": [ 10.25, 8.125, 10, 7.875 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 5.75, 7.875, 6, 8.125 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 10, 2, 10.25, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 5.75, 2, 6, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.875, 2, 8.125, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.875, 2, 8.125, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 6, 13.75, 7.8125 ],
+    "to": [ 6.25, 14, 8.1875 ],
+    "faces": {
+        "down":  { "uv": [ 10, 8.1875, 9.75, 7.8125 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6, 7.8125, 6.25, 8.1875 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9.75, 2, 10, 2.25 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6, 2, 6.25, 2.25 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.8125, 2, 8.1875, 2.25 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.8125, 2, 8.1875, 2.25 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 6.25, 14, 7.75 ],
+    "to": [ 8, 14.25, 8 ],
+    "faces": {
+        "down":  { "uv": [ 9.75, 8, 8, 7.75 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6.25, 7.75, 8, 8 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 8, 1.75, 9.75, 2 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6.25, 1.75, 8, 2 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.75, 1.75, 8, 2 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 8, 1.75, 8.25, 2 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 6, 14, 7.8125 ],
+    "to": [ 6.25, 14.25, 8.1875 ],
+    "faces": {
+        "down":  { "uv": [ 10, 8.1875, 9.75, 7.8125 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 6, 7.8125, 6.25, 8.1875 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 9.75, 1.75, 10, 2 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 6, 1.75, 6.25, 2 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.8125, 1.75, 8.1875, 2 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.8125, 1.75, 8.1875, 2 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 5.75, 14, 7.875 ],
+    "to": [ 6, 14.25, 8.125 ],
+    "faces": {
+        "down":  { "uv": [ 10.25, 8.125, 10, 7.875 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 5.75, 7.875, 6, 8.125 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 10, 1.75, 10.25, 2 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 5.75, 1.75, 6, 2 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.875, 1.75, 8.125, 2 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.875, 1.75, 8.125, 2 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 5.5, 14.25, 7.875 ],
+    "to": [ 5.75, 15.75, 8.125 ],
+    "faces": {
+        "down":  { "uv": [ 10.5, 8.125, 10.25, 7.875 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 5.5, 7.875, 5.75, 8.125 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 10.25, 0.25, 10.5, 1.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 5.5, 0.25, 5.75, 1.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.875, 0.25, 8.125, 1.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.875, 0.25, 8.125, 1.75 ], "texture": "#iron axe iron" }
+    }
+},
+{
+    "__comment": "Axe balde*",
+    "from": [ 5.75, 14.25, 7.8125 ],
+    "to": [ 6, 15.75, 8.1875 ],
+    "faces": {
+        "down":  { "uv": [ 10.25, 8.1875, 10, 7.8125 ], "texture": "#iron axe iron" },
+        "up":    { "uv": [ 5.75, 7.8125, 6, 8.1875 ], "texture": "#iron axe iron" },
+        "north": { "uv": [ 10, 0.25, 10.25, 1.75 ], "texture": "#iron axe iron" },
+        "south": { "uv": [ 5.75, 0.25, 6, 1.75 ], "texture": "#iron axe iron" },
+        "west":  { "uv": [ 7.8125, 0.25, 8.1875, 1.75 ], "texture": "#iron axe iron" },
+        "east":  { "uv": [ 7.8125, 0.25, 8.1875, 1.75 ], "texture": "#iron axe iron" }
+    }
+}
+],
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, -90, 0 ],
+        "translation": [ 0, 5.1, 0.38 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 0, 90, 0 ],
+        "translation": [ 0, 5.09, 0.38 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "head": {
+        "rotation": [ 0, 38, 77 ],
+        "translation": [ 13.61, 6.8, -9.07 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "ground": {
+        "rotation": [ -90, 0, 90 ],
+        "translation": [ 0, 0, -3 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 90, 0 ],
+        "translation": [ 0, 0.2, -0.9 ],
+        "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 0, -90, 5 ],
+        "translation": [ 0.5, 4.3, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 0, 90, -5 ],
+        "translation": [ 0.5, 4.3, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 6, 6, -45 ],
+        "translation": [ -0.76, -0.56, 0 ],
+        "scale": [ 1.2, 1.2, 1.2 ]
+    }
+}
+}

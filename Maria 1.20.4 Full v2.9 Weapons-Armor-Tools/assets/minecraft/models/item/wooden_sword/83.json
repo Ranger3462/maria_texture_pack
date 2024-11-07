@@ -1,0 +1,131 @@
+{
+	"textures": {
+		"0": "block/painting",
+		"1": "block/oak_planks",
+		"particle": "block/painting"
+	},
+	"elements": [
+		{
+			"from": [16, 16, 14],
+			"to": [32, 17, 16],
+			"faces": {
+				"north": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 11.5, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 16, 14],
+			"to": [16, 17, 16],
+			"faces": {
+				"north": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 11.5, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 1, 14.5],
+			"to": [31, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 3.5, 16, 12.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#missing"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [31, 1, 14],
+			"to": [32, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"east": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"south": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"west": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"up": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"down": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90}
+			}
+		},
+		{
+			"from": [0, 1, 14],
+			"to": [1, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"east": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"south": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"west": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"up": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90},
+				"down": {"uv": [0, 11.5, 16, 16], "texture": "#1", "rotation": 90}
+			}
+		},
+		{
+			"from": [16, 0, 14],
+			"to": [32, 1, 16],
+			"faces": {
+				"north": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 11.5, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, 14],
+			"to": [16, 1, 16],
+			"faces": {
+				"north": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 11.5, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 11.5, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [90, 0, 0],
+			"translation": [0, 3.5, 0]
+		},
+		"fixed": {
+			"scale": [2, 1.9, 2],
+			"translation": [0, -1, -15]
+		},
+		"gui": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [180, 0, 180],
+			"translation": [4, -0.5, 0]
+		},
+		"ground": {
+			"translation": [0, 6, 0]
+		},
+		"head": {
+			"scale": [0.5, 0.5, 0.5],
+			"translation": [-3.5, 10.5, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [-180, 0, -180],
+			"translation": [-1, 1, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [-180, 0, 180],
+			"translation": [6.5, 1.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5],
+			"rotation": [90, 0, 0],
+			"translation": [9, 4, 0]
+		}
+	}
+}

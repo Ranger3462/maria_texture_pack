@@ -1,0 +1,989 @@
+{
+"__comment": "Made by (c) Yannik Pipek. Make sure to inform yourself about my therms of use before using any of my work",
+"textures": {
+    "particle": "item/diamond_axe",
+    "diamond axe wood": "block/tools/handle",
+    "diamond axe diamond": "block/tools/diamond",
+    "texture": "block/tools/diamond"
+},
+"elements": [ 
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.25, 0.75, 7.5 ],
+    "to": [ 8.75, 1.25, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.75, 8.5, 7.25, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.25, 7.5, 8.75, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.25, 14.75, 8.75, 15.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.25, 14.75, 8.75, 15.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 14.75, 8.5, 15.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 14.75, 8.5, 15.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 5.25, 7.5 ],
+    "to": [ 8.5, 5.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 10.25, 8.5, 10.75 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 10.25, 8.5, 10.75 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 10.25, 8.5, 10.75 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 10.25, 8.5, 10.75 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 0.75, 7.25 ],
+    "to": [ 8.5, 1.25, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.5, 7.5, 7.25 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.25, 8.5, 7.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 14.75, 8.5, 15.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 14.75, 8.5, 15.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.25, 14.75, 7.5, 15.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 8.5, 14.75, 8.75, 15.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 4.75, 7.25 ],
+    "to": [ 8.5, 5.25, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 7.5, 7.5, 7.25 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.25, 8.5, 7.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.25, 10.75, 7.5, 11.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 8.5, 10.75, 8.75, 11.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick D End",
+    "from": [ 7.5, 0.5, 7.5 ],
+    "to": [ 8.5, 0.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#diamond axe diamond" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#diamond axe diamond" },
+        "north": { "uv": [ 7.5, 15.25, 8.5, 15.5 ], "texture": "#diamond axe diamond" },
+        "south": { "uv": [ 7.5, 15.25, 8.5, 15.5 ], "texture": "#diamond axe diamond" },
+        "west":  { "uv": [ 7.5, 15.25, 8.5, 15.5 ], "texture": "#diamond axe diamond" },
+        "east":  { "uv": [ 7.5, 15.25, 8.5, 15.5 ], "texture": "#diamond axe diamond" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 1.25, 7.5 ],
+    "to": [ 8.5, 5.25, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 10.75, 8.5, 14.75 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 10.75, 8.5, 14.75 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 10.75, 8.5, 14.75 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 10.75, 8.5, 14.75 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 5.75, 7.5 ],
+    "to": [ 8.5, 6, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 10, 8.5, 10.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 10, 8.5, 10.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 10, 8.5, 10.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 10, 8.5, 10.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 11.5, 7.5 ],
+    "to": [ 7.75, 11.75, 8.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.75, 8.25, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.5, 7.75, 8.75 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 8.25, 4.25, 8.5, 4.5 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 4.25, 7.75, 4.5 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 4.25, 8.75, 4.5 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.25, 4.25, 8.5, 4.5 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 12.5, 7.5 ],
+    "to": [ 7.75, 12.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 8.25, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.5, 7.75, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 8.25, 3.25, 8.5, 3.5 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 3.25, 7.75, 3.5 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 3.25, 8.5, 3.5 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 3.25, 8.5, 3.5 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 13, 7.5 ],
+    "to": [ 8.5, 13.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.5, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 2.25, 8.5, 3 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 2.25, 8.5, 3 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 2.25, 8.5, 3 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 2.25, 8.5, 3 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick D End",
+    "from": [ 7.5, 0, 7.75 ],
+    "to": [ 8.5, 0.5, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.25, 7.5, 7.75 ], "texture": "#diamond axe diamond" },
+        "up":    { "uv": [ 7.5, 7.75, 8.5, 8.25 ], "texture": "#diamond axe diamond" },
+        "north": { "uv": [ 7.5, 15.5, 8.5, 16 ], "texture": "#diamond axe diamond" },
+        "south": { "uv": [ 7.5, 15.5, 8.5, 16 ], "texture": "#diamond axe diamond" },
+        "west":  { "uv": [ 7.75, 15.5, 8.25, 16 ], "texture": "#diamond axe diamond" },
+        "east":  { "uv": [ 7.75, 15.5, 8.25, 16 ], "texture": "#diamond axe diamond" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 6, 7.75 ],
+    "to": [ 8.5, 6.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.75, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 9.25, 8.5, 10 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 9.25, 8.5, 10 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 9.25, 8.5, 10 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 9.25, 8.25, 10 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 6.75, 7.75 ],
+    "to": [ 8.5, 11.5, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.25, 7.5, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.75, 8.5, 8.25 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 4.5, 8.5, 9.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 4.5, 8.5, 9.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 4.5, 8.25, 9.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.75, 4.5, 8.25, 9.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 11.75, 7.75 ],
+    "to": [ 7.75, 12.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 8.25, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.75, 7.75, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 8.25, 3.5, 8.5, 4.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 3.5, 7.75, 4.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 3.5, 8.5, 4.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 3.5, 8.25, 4.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 12.75, 7.75 ],
+    "to": [ 7.75, 13, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 8.25, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.75, 7.75, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 8.25, 3, 8.5, 3.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 3, 7.75, 3.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 3, 8.5, 3.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 3, 8.25, 3.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 13.75, 7.75 ],
+    "to": [ 8.5, 14, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.25, 7.5, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 7.75, 8.5, 8.25 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 2, 8.5, 2.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 2, 8.5, 2.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick D End",
+    "from": [ 7.5, 0.25, 8.25 ],
+    "to": [ 8.5, 0.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 8.25 ], "texture": "#diamond axe diamond" },
+        "up":    { "uv": [ 7.5, 8.25, 8.5, 8.5 ], "texture": "#diamond axe diamond" },
+        "north": { "uv": [ 7.5, 15.5, 8.5, 15.75 ], "texture": "#diamond axe diamond" },
+        "south": { "uv": [ 7.5, 15.5, 8.5, 15.75 ], "texture": "#diamond axe diamond" },
+        "west":  { "uv": [ 8.25, 15.5, 8.5, 15.75 ], "texture": "#diamond axe diamond" },
+        "east":  { "uv": [ 7.5, 15.5, 7.75, 15.75 ], "texture": "#diamond axe diamond" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 10.75, 8.25 ],
+    "to": [ 8.5, 11.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.5, 7.5, 8.25 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 8.25, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 4.5, 8.5, 5.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 4.5, 8.5, 5.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 8.25, 4.5, 8.5, 5.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 4.5, 7.75, 5.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 0.75, 8.5 ],
+    "to": [ 8.5, 1.25, 8.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.75, 7.5, 8.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 8.5, 8.5, 8.75 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 14.75, 8.5, 15.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 14.75, 8.5, 15.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 8.5, 14.75, 8.75, 15.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.25, 14.75, 7.5, 15.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.5, 4.75, 8.5 ],
+    "to": [ 8.5, 5.25, 8.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.5, 8.75, 7.5, 8.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.5, 8.5, 8.5, 8.75 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 8.5, 10.75, 8.75, 11.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.25, 10.75, 7.5, 11.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11.25, 5.25 ],
+    "to": [ 8.25, 11.5, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 7.75, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.25, 8.25, 7.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.5, 8.25, 4.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.5, 8.25, 4.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 4.5, 7.75, 4.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 8.25, 4.5, 10.75, 4.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11.5, 5 ],
+    "to": [ 8.25, 13, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.5, 7.75, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5, 8.25, 7.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3, 8.25, 4.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3, 8.25, 4.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 3, 7.5, 4.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 8.5, 3, 11, 4.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 10.5, 5.25 ],
+    "to": [ 8.25, 11.25, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 5.75, 7.75, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.25, 8.25, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.75, 8.25, 5.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.75, 8.25, 5.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 4.75, 5.75, 5.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 4.75, 10.75, 5.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 13.25, 5.25 ],
+    "to": [ 8.25, 13.5, 7 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7, 7.75, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.25, 8.25, 7 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 2.5, 8.25, 2.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 2.5, 8.25, 2.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 2.5, 7, 2.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 9, 2.5, 10.75, 2.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 13.5, 5.25 ],
+    "to": [ 8.25, 13.75, 6.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 6.75, 7.75, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.25, 8.25, 6.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 2.25, 8.25, 2.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 2.25, 8.25, 2.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 2.25, 6.75, 2.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 9.25, 2.25, 10.75, 2.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 13.75, 5.5 ],
+    "to": [ 8.25, 14.25, 6.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 6.5, 7.75, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.5, 8.25, 6.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 1.75, 8.25, 2.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 1.75, 8.25, 2.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 1.75, 6.5, 2.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 9.5, 1.75, 10.5, 2.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 14.25, 5.5 ],
+    "to": [ 8.25, 14.5, 6 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 6, 7.75, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.5, 8.25, 6 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 1.5, 8.25, 1.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 1.5, 8.25, 1.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 1.5, 6, 1.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10, 1.5, 10.5, 1.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.8125, 14.5, 5.5 ],
+    "to": [ 8.1875, 14.75, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.1875, 5.75, 7.8125, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.8125, 5.5, 8.1875, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.8125, 1.25, 8.1875, 1.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.8125, 1.25, 8.1875, 1.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 1.25, 5.75, 1.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 1.25, 10.5, 1.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.875, 14.75, 5.5 ],
+    "to": [ 8.125, 15, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5.75, 7.875, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 5.5, 8.125, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 1, 8.125, 1.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 1, 8.125, 1.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 1, 5.75, 1.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 1, 10.5, 1.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 10, 5.75 ],
+    "to": [ 8.25, 11.25, 6 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 6, 7.75, 5.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.75, 8.25, 6 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.75, 8.25, 6 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.75, 8.25, 6 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.75, 4.75, 6, 6 ], "texture": "#texture" },
+        "east":  { "uv": [ 10, 4.75, 10.25, 6 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 10.25, 6 ],
+    "to": [ 8.25, 11.25, 6.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 6.5, 7.75, 6 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 6, 8.25, 6.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.75, 8.25, 5.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.75, 8.25, 5.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 6, 4.75, 6.5, 5.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 9.5, 4.75, 10, 5.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 10.5, 6.5 ],
+    "to": [ 8.25, 11.25, 6.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 6.75, 7.75, 6.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 6.5, 8.25, 6.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.75, 8.25, 5.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.75, 8.25, 5.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 6.5, 4.75, 6.75, 5.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 9.25, 4.75, 9.5, 5.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11, 6.75 ],
+    "to": [ 8.25, 11.25, 7.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.25, 7.75, 6.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 6.75, 8.25, 7.25 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.75, 8.25, 5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.75, 8.25, 5 ], "texture": "#texture" },
+        "west":  { "uv": [ 6.75, 4.75, 7.25, 5 ], "texture": "#texture" },
+        "east":  { "uv": [ 8.75, 4.75, 9.25, 5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Sick D End",
+    "from": [ 7.75, 0.25, 7.5 ],
+    "to": [ 8.25, 0.5, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 7.75, 7.5 ], "texture": "#diamond axe diamond" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 7.75 ], "texture": "#diamond axe diamond" },
+        "north": { "uv": [ 7.75, 15.5, 8.25, 15.75 ], "texture": "#diamond axe diamond" },
+        "south": { "uv": [ 7.75, 15.5, 8.25, 15.75 ], "texture": "#diamond axe diamond" },
+        "west":  { "uv": [ 7.5, 15.5, 7.75, 15.75 ], "texture": "#diamond axe diamond" },
+        "east":  { "uv": [ 8.25, 15.5, 8.5, 15.75 ], "texture": "#diamond axe diamond" }
+    }
+},
+{
+    "__comment": "Axe Sick",
+    "from": [ 7.75, 6, 7.5 ],
+    "to": [ 8.25, 11.25, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 7.75, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 7.75 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.75, 4.75, 8.25, 10 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.75, 4.75, 8.25, 10 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 4.75, 7.75, 10 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 8.25, 4.75, 8.5, 10 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11.75, 7.5 ],
+    "to": [ 8.25, 12.5, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 7.75, 7.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 7.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3.5, 8.25, 4.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3.5, 8.25, 4.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.5, 3.5, 7.75, 4.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 8.25, 3.5, 8.5, 4.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 12.75, 7.5 ],
+    "to": [ 8.25, 13, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 7.75, 7.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 7.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3, 8.25, 3.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3, 8.25, 3.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.5, 3, 7.75, 3.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 8.25, 3, 8.5, 3.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.75, 13.75, 7.5 ],
+    "to": [ 8.25, 14, 7.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.75, 7.75, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 7.75 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 2, 7.75, 2.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 8.25, 2, 8.5, 2.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.75, 14, 7.75 ],
+    "to": [ 8.25, 14.5, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.25, 7.75, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.75, 7.75, 8.25, 8.25 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.75, 1.5, 8.25, 2 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.75, 1.5, 8.25, 2 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 1.5, 8.25, 2 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.75, 1.5, 8.25, 2 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick D End",
+    "from": [ 7.75, 0, 8.25 ],
+    "to": [ 8.25, 0.25, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 7.75, 8.25 ], "texture": "#diamond axe diamond" },
+        "up":    { "uv": [ 7.75, 8.25, 8.25, 8.5 ], "texture": "#diamond axe diamond" },
+        "north": { "uv": [ 7.75, 15.75, 8.25, 16 ], "texture": "#diamond axe diamond" },
+        "south": { "uv": [ 7.75, 15.75, 8.25, 16 ], "texture": "#diamond axe diamond" },
+        "west":  { "uv": [ 8.25, 15.75, 8.5, 16 ], "texture": "#diamond axe diamond" },
+        "east":  { "uv": [ 7.5, 15.75, 7.75, 16 ], "texture": "#diamond axe diamond" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.75, 6.75, 8.25 ],
+    "to": [ 8.25, 10.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 7.75, 8.25 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.75, 8.25, 8.25, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.75, 5.25, 8.25, 9.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.75, 5.25, 8.25, 9.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 8.25, 5.25, 8.5, 9.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 5.25, 7.75, 9.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick",
+    "from": [ 7.75, 13.75, 8.25 ],
+    "to": [ 8.25, 14, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 7.75, 8.25 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.75, 8.25, 8.25, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 8.25, 2, 8.5, 2.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 2, 7.75, 2.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11.5, 8.5 ],
+    "to": [ 8.25, 12.75, 9.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 9.25, 7.75, 8.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 8.5, 8.25, 9.25 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3.25, 8.25, 4.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3.25, 8.25, 4.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 8.5, 3.25, 9.25, 4.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 6.75, 3.25, 7.5, 4.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 12.75, 8.5 ],
+    "to": [ 8.25, 13, 9 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 9, 7.75, 8.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 8.5, 8.25, 9 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3, 8.25, 3.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3, 8.25, 3.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 8.5, 3, 9, 3.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7, 3, 7.5, 3.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11.75, 9.25 ],
+    "to": [ 8.25, 12.5, 9.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 9.75, 7.75, 9.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 9.25, 8.25, 9.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3.5, 8.25, 4.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3.5, 8.25, 4.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 9.25, 3.5, 9.75, 4.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 6.25, 3.5, 6.75, 4.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 12.5, 9.25 ],
+    "to": [ 8.25, 12.75, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 9.5, 7.75, 9.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 9.25, 8.25, 9.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3.25, 8.25, 3.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3.25, 8.25, 3.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 9.25, 3.25, 9.5, 3.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 6.5, 3.25, 6.75, 3.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick*",
+    "from": [ 8.25, 12.5, 7.5 ],
+    "to": [ 8.5, 12.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.5, 7.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 8.25, 7.5, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 3.25, 7.75, 3.5 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 8.25, 3.25, 8.5, 3.5 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 3.25, 8.5, 3.5 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 3.25, 8.5, 3.5 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 12.5, 7.5 ],
+    "to": [ 8.25, 12.75, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 7.75, 7.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 8.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3.25, 8.25, 3.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3.25, 8.25, 3.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.5, 3.25, 8.5, 3.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.5, 3.25, 8.5, 3.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick*",
+    "from": [ 8.25, 12.75, 7.75 ],
+    "to": [ 8.5, 13, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.5, 7.5, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 8.25, 7.75, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 3, 7.75, 3.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 8.25, 3, 8.5, 3.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 3, 8.5, 3.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 3, 8.25, 3.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 12.75, 7.75 ],
+    "to": [ 8.25, 13, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 7.75, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 7.75, 8.25, 8.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3, 8.25, 3.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3, 8.25, 3.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 3, 8.5, 3.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.5, 3, 8.25, 3.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick*",
+    "from": [ 8.25, 11.75, 7.75 ],
+    "to": [ 8.5, 12.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.5, 7.5, 7.75 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 8.25, 7.75, 8.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 3.5, 7.75, 4.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 8.25, 3.5, 8.5, 4.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.75, 3.5, 8.5, 4.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 3.5, 8.25, 4.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Blade",
+    "from": [ 7.75, 11.75, 7.75 ],
+    "to": [ 8.25, 12.5, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.5, 7.75, 7.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 7.75, 8.25, 8.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 3.5, 8.25, 4.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 3.5, 8.25, 4.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 3.5, 8.5, 4.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.5, 3.5, 8.25, 4.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick*",
+    "from": [ 8.25, 11.5, 7.5 ],
+    "to": [ 8.5, 11.75, 8.75 ],
+    "faces": {
+        "down":  { "uv": [ 7.75, 8.75, 7.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 8.25, 7.5, 8.5, 8.75 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.5, 4.25, 7.75, 4.5 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 8.25, 4.25, 8.5, 4.5 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 4.25, 8.75, 4.5 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.25, 4.25, 8.5, 4.5 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe D Balde",
+    "from": [ 7.75, 11.5, 7.5 ],
+    "to": [ 8.25, 11.75, 8.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.75, 7.75, 7.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 7.5, 8.25, 8.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 4.25, 8.25, 4.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 4.25, 8.25, 4.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.5, 4.25, 8.75, 4.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.25, 4.25, 8.5, 4.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Sick D End*",
+    "from": [ 7.75, -0.25, 7.75 ],
+    "to": [ 8.25, 0, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 8.25, 7.75, 7.75 ], "texture": "#diamond axe diamond" },
+        "up":    { "uv": [ 7.75, 7.75, 8.25, 8.25 ], "texture": "#diamond axe diamond" },
+        "north": { "uv": [ 7.75, 16, 8.25, 16 ], "texture": "#diamond axe diamond" },
+        "south": { "uv": [ 7.75, 16, 8.25, 16 ], "texture": "#diamond axe diamond" },
+        "west":  { "uv": [ 7.75, 16, 8.25, 16 ], "texture": "#diamond axe diamond" },
+        "east":  { "uv": [ 7.75, 16, 8.25, 16 ], "texture": "#diamond axe diamond" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.875, 14.25, 5.25 ],
+    "to": [ 8.125, 14.75, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5.5, 7.875, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 5.25, 8.125, 5.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 1.25, 8.125, 1.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 1.25, 8.125, 1.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 1.25, 5.5, 1.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.5, 1.25, 10.75, 1.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.875, 13.25, 5 ],
+    "to": [ 8.125, 14.25, 5.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5.25, 7.875, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 5, 8.125, 5.25 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 1.75, 8.125, 2.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 1.75, 8.125, 2.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 1.75, 5.25, 2.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.75, 1.75, 11, 2.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.875, 11.25, 4.75 ],
+    "to": [ 8.125, 13.25, 5 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5, 7.875, 4.75 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 4.75, 8.125, 5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 2.75, 8.125, 4.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 2.75, 8.125, 4.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 4.75, 2.75, 5, 4.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 11, 2.75, 11.25, 4.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.875, 10.25, 5 ],
+    "to": [ 8.125, 11.25, 5.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5.25, 7.875, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 5, 8.125, 5.25 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 4.75, 8.125, 5.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 4.75, 8.125, 5.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 4.75, 5.25, 5.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.75, 4.75, 11, 5.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.875, 9.75, 5.25 ],
+    "to": [ 8.125, 10.25, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5.5, 7.875, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 5.25, 8.125, 5.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 5.75, 8.125, 6.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 5.75, 8.125, 6.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 5.75, 5.5, 6.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.5, 5.75, 10.75, 6.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.8125, 9.75, 5.5 ],
+    "to": [ 8.1875, 10, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.1875, 5.75, 7.8125, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.8125, 5.5, 8.1875, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.8125, 6, 8.1875, 6.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.8125, 6, 8.1875, 6.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 6, 5.75, 6.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 6, 10.5, 6.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.875, 9.5, 5.5 ],
+    "to": [ 8.125, 9.75, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.125, 5.75, 7.875, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.875, 5.5, 8.125, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.875, 6.25, 8.125, 6.5 ], "texture": "#texture" },
+        "south": { "uv": [ 7.875, 6.25, 8.125, 6.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 6.25, 5.75, 6.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 6.25, 10.5, 6.5 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.75, 10, 5.5 ],
+    "to": [ 8.25, 10.25, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 5.75, 7.75, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.5, 8.25, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 5.75, 8.25, 6 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 5.75, 8.25, 6 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 5.75, 5.75, 6 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 5.75, 10.5, 6 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.75, 13.75, 5.25 ],
+    "to": [ 8.25, 14, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 5.5, 7.75, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.25, 8.25, 5.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 2, 8.25, 2.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 2, 5.5, 2.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.5, 2, 10.75, 2.25 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.8125, 14, 5.25 ],
+    "to": [ 8.1875, 14.25, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.1875, 5.5, 7.8125, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.8125, 5.25, 8.1875, 5.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.8125, 1.75, 8.1875, 2 ], "texture": "#texture" },
+        "south": { "uv": [ 7.8125, 1.75, 8.1875, 2 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 1.75, 5.5, 2 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.5, 1.75, 10.75, 2 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.75, 10.25, 5.5 ],
+    "to": [ 8.25, 10.5, 5.75 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 5.75, 7.75, 5.5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.5, 8.25, 5.75 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 5.5, 8.25, 5.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 5.5, 8.25, 5.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.5, 5.5, 5.75, 5.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.25, 5.5, 10.5, 5.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.8125, 10.25, 5.25 ],
+    "to": [ 8.1875, 10.5, 5.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.1875, 5.5, 7.8125, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.8125, 5.25, 8.1875, 5.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.8125, 5.5, 8.1875, 5.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.8125, 5.5, 8.1875, 5.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 5.5, 5.5, 5.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.5, 5.5, 10.75, 5.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.75, 13, 5.25 ],
+    "to": [ 8.25, 13.25, 7.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.25, 7.5, 7.75, 5.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.75, 5.25, 8.25, 7.5 ], "texture": "#texture" },
+        "north": { "uv": [ 7.75, 2.75, 8.25, 3 ], "texture": "#texture" },
+        "south": { "uv": [ 7.75, 2.75, 8.25, 3 ], "texture": "#texture" },
+        "west":  { "uv": [ 5.25, 2.75, 7.5, 3 ], "texture": "#texture" },
+        "east":  { "uv": [ 8.5, 2.75, 10.75, 3 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.8125, 13, 5 ],
+    "to": [ 8.1875, 13.25, 5.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.1875, 5.25, 7.8125, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.8125, 5, 8.1875, 5.25 ], "texture": "#texture" },
+        "north": { "uv": [ 7.8125, 2.75, 8.1875, 3 ], "texture": "#texture" },
+        "south": { "uv": [ 7.8125, 2.75, 8.1875, 3 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 2.75, 5.25, 3 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.75, 2.75, 11, 3 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe D Blade*",
+    "from": [ 7.8125, 11.25, 5 ],
+    "to": [ 8.1875, 11.5, 5.25 ],
+    "faces": {
+        "down":  { "uv": [ 8.1875, 5.25, 7.8125, 5 ], "texture": "#texture" },
+        "up":    { "uv": [ 7.8125, 5, 8.1875, 5.25 ], "texture": "#texture" },
+        "north": { "uv": [ 7.8125, 4.5, 8.1875, 4.75 ], "texture": "#texture" },
+        "south": { "uv": [ 7.8125, 4.5, 8.1875, 4.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 5, 4.5, 5.25, 4.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 10.75, 4.5, 11, 4.75 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "Axe Stick*",
+    "from": [ 7.25, 4.75, 7.5 ],
+    "to": [ 7.5, 5.25, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 8.75, 8.5, 8.5, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 7.25, 7.5, 7.5, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 8.5, 10.75, 8.75, 11.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 7.25, 10.75, 7.5, 11.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" }
+    }
+},
+{
+    "__comment": "Axe Stick*",
+    "from": [ 8.5, 4.75, 7.5 ],
+    "to": [ 8.75, 5.25, 8.5 ],
+    "faces": {
+        "down":  { "uv": [ 7.5, 8.5, 7.25, 7.5 ], "texture": "#diamond axe wood" },
+        "up":    { "uv": [ 8.5, 7.5, 8.75, 8.5 ], "texture": "#diamond axe wood" },
+        "north": { "uv": [ 7.25, 10.75, 7.5, 11.25 ], "texture": "#diamond axe wood" },
+        "south": { "uv": [ 8.5, 10.75, 8.75, 11.25 ], "texture": "#diamond axe wood" },
+        "west":  { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" },
+        "east":  { "uv": [ 7.5, 10.75, 8.5, 11.25 ], "texture": "#diamond axe wood" }
+    }
+}
+],
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 5.29, 1.7 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 5.29, 1.7 ],
+        "scale": [ 1.5, 1.5, 1.5 ]
+    },
+    "head": {
+        "rotation": [ 64, -153, 69 ],
+        "translation": [ -12.85, 6.05, -4.35 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "ground": {
+        "rotation": [ 180, 0, 90 ],
+        "translation": [ 2.65, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 90, 0 ],
+        "translation": [ 0, 0.2, -0.6 ],
+        "scale": [ 1.2, 1.2, 1.2 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ -5, 0, 0 ],
+        "translation": [ 0.5, 4.3, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ -5, 0, 0 ],
+        "translation": [ 0.5, 4.3, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 91, 45, -92 ],
+        "translation": [ 0.76, -0.56, 0 ],
+        "scale": [ 1.2, 1.2, 1.2 ]
+    }
+}
+}
