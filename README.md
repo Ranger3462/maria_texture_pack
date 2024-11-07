@@ -1,0 +1,1 @@
+I didn't like most of the textures of the Maria Texture Pack, but the weapons and armor were pretty cool. I'm working on pulling in the custom textures for the objects like the herbs and such still, but that will just be additional functionality.
